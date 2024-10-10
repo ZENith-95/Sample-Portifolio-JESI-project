@@ -132,10 +132,14 @@ p{
     justify-content: center;
     align-items: center;
     z-index: 1;
-    background-color: rgba(31, 30, 30, 0.726);
+    background-color: rgba(14, 20, 59, 0.726);
     overflow-x: hidden;
     border-radius: 5px;
 }
+
+/* #header .nav-list ul:target{
+    display: block;
+} */
 
 /* explain more with javascript */
 
