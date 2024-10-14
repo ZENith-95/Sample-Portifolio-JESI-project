@@ -137,9 +137,6 @@ p{
     border-radius: 5px;
 }
 
-/* #header .nav-list ul:target{
-    display: block;
-} */
 
 /* explain more with javascript */
 
@@ -592,8 +589,8 @@ transition: 0.5s ease box-shadow;
 }
 
 #contact .item{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     margin: 0 auto;
 }
 
@@ -777,23 +774,22 @@ height: 100%;
   #contact .contact-item{
     width: 30%;
     margin: 0;
-    flex-direction: row;
+    flex-direction: column;
   }
 
-  #contact .contact-item .icon{
-    height: 80px;
-    width: 80px;
-    /* margin-left: 10px; */
+  #contact .contact-item .item{
+    height: 50px;
+    width: 50px;
   }
 
-    #contact .contact-item .icon img{
+    #contact .contact-item .item img{
     object-fit: contain;
   }
 
 
    #contact .contact-item .contact-info{
     width: 50%;
-    text-align: left;
+    text-align: center;
     padding-left: 20px;
   }
 }
